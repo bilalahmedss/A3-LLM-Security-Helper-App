@@ -149,7 +149,10 @@ Analyze the following GenAI/Agentic application specification for security vulne
 
 | Vulnerability | OWASP Category | MITRE ATLAS | Risk Summary | Key Mitigations |
 |---------------|----------------|-------------|--------------|-----------------|
-| [Name] | [LLM0X:2025] | [AML.TXXXX] | [Brief risk] | [1-2 key actions] |
+| [Name] | [LLM0X:2025 — Full Name] | [AML.TXXXX: Technique Name] | [Brief risk] | [1-2 key actions] |
+
+**Example table row:**
+| Prompt Injection | LLM01:2025 — Prompt Injection | AML.T0051: LLM Prompt Injection | User inputs manipulate model behavior | Input validation, prompt hardening |
 
 Application Specification:
 ```
